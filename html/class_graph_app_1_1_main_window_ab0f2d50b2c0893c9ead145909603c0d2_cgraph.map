@@ -1,0 +1,5 @@
+<map id="GraphApp.MainWindow.GetVertexUnderMouse" name="GraphApp.MainWindow.GetVertexUnderMouse">
+<area shape="rect" id="Node000001" title="Отримання положення вершини" alt="" coords="5,5,225,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a91f0e470a98b1e4172bd4e90b725720d" title="Перевірка, чи знаходиться курсор миші над заданою вершиною" alt="" coords="273,5,484,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,24,257,24,257,29,225,29"/>
+</map>

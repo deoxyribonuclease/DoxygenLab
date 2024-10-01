@@ -1,0 +1,9 @@
+<map id="GraphApp.GraphElement" name="GraphApp.GraphElement">
+<area shape="rect" id="Node000001" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="50,80,216,107"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_edge.html" title="Представляє ребро між двома вершинами." alt="" coords="5,155,119,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,120,76,156,72,152,108,116"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_vertex.html" title="Представляє вершину в графі, яка є графічним елементом на Canvas." alt="" coords="143,155,264,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,116,193,152,189,156,154,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="87,5,178,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,48,135,80,130,80,130,48"/>
+</map>

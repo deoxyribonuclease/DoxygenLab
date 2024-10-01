@@ -1,0 +1,11 @@
+<map id="GraphApp.MainWindow" name="GraphApp.MainWindow">
+<area shape="rect" id="Node000001" title="Головне вікно програми для побудови та маніпуляції графами." alt="" coords="5,248,164,275"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,157,97,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,199,84,247,79,248,67,200"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_vertex.html" title="Представляє вершину в графі, яка є графічним елементом на Canvas." alt="" coords="122,157,242,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,197,100,249,97,245,155,193"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="130,81,234,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="184,123,184,157,179,157,179,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="136,5,228,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="184,47,184,81,179,81,179,47"/>
+</map>

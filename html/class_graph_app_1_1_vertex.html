@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="uk">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Орієнтований граф: Клас GraphApp.Vertex</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Орієнтований граф
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_graph_app_1_1_vertex.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Завантаження...</div>
+<div class="SRStatus" id="Searching">Пошук...</div>
+<div class="SRStatus" id="NoMatches">Нічого не знайдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Загальнодоступні елементи</a> &#124;
+<a href="#properties">Властивості</a> &#124;
+<a href="#pri-methods">Приватні елементи</a> &#124;
+<a href="class_graph_app_1_1_vertex-members.html">Список всіх елементів</a>  </div>
+  <div class="headertitle"><div class="title">Клас GraphApp.Vertex</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Представляє вершину в графі, яка є графічним елементом на Canvas.  
+ <a href="#details">Детальніше...</a></p>
+<div class="dynheader">
+Схема успадкувань для GraphApp.Vertex</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex__inherit__graph.png" border="0" usemap="#a_graph_app_8_vertex_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_graph_app_8_vertex_inherit__map" id="a_graph_app_8_vertex_inherit__map">
+<area shape="rect" title="Представляє вершину в графі, яка є графічним елементом на Canvas." alt="" coords="5,155,126,181"/>
+<area shape="rect" href="class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="13,80,118,107"/>
+<area shape="poly" title=" " alt="" coords="68,122,68,154,63,154,63,122"/>
+<area shape="rect" title=" " alt="" coords="20,5,111,32"/>
+<area shape="poly" title=" " alt="" coords="68,48,68,80,63,80,63,48"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">див. легенду</a>]</span></center></div>
+<div class="dynheader">
+Діаграма зв'язків класу GraphApp.Vertex:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex__coll__graph.png" border="0" usemap="#a_graph_app_8_vertex_coll__map" alt="Collaboration graph"/></div>
+<map name="a_graph_app_8_vertex_coll__map" id="a_graph_app_8_vertex_coll__map">
+<area shape="rect" title="Представляє вершину в графі, яка є графічним елементом на Canvas." alt="" coords="5,155,126,181"/>
+<area shape="rect" href="class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="13,80,118,107"/>
+<area shape="poly" title=" " alt="" coords="68,122,68,154,63,154,63,122"/>
+<area shape="rect" title=" " alt="" coords="20,5,111,32"/>
+<area shape="poly" title=" " alt="" coords="68,48,68,80,63,80,63,48"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">див. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Загальнодоступні елементи</h2></td></tr>
+<tr class="memitem:a4c724fb3157b8fa3635ba06ab8399cd1" id="r_a4c724fb3157b8fa3635ba06ab8399cd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c724fb3157b8fa3635ba06ab8399cd1">Vertex</a> (int vertexNumber)</td></tr>
+<tr class="memdesc:a4c724fb3157b8fa3635ba06ab8399cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор для створення вершини з заданим номером.  <br /></td></tr>
+<tr class="separator:a4c724fb3157b8fa3635ba06ab8399cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e08bd675c2e3cffc41284d357b1f084" id="r_a7e08bd675c2e3cffc41284d357b1f084"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e08bd675c2e3cffc41284d357b1f084">UpdatePosition</a> ()</td></tr>
+<tr class="memdesc:a7e08bd675c2e3cffc41284d357b1f084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оновлює положення вершини на Canvas.  <br /></td></tr>
+<tr class="separator:a7e08bd675c2e3cffc41284d357b1f084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_graph_app_1_1_graph_element"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_graph_app_1_1_graph_element')"><img src="closed.png" alt="-"/>&#160;Загальнодоступні елементи успадковано з <a class="el" href="class_graph_app_1_1_graph_element.html">GraphApp.GraphElement</a></td></tr>
+<tr class="memitem:a33ac27d85cd5ed8ef12b4ded38dc9d32 inherit pub_methods_class_graph_app_1_1_graph_element" id="r_a33ac27d85cd5ed8ef12b4ded38dc9d32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph_app_1_1_graph_element.html#a33ac27d85cd5ed8ef12b4ded38dc9d32">UpdatePosition</a> ()</td></tr>
+<tr class="memdesc:a33ac27d85cd5ed8ef12b4ded38dc9d32 inherit pub_methods_class_graph_app_1_1_graph_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оновлює положення елемента на полотні.  <br /></td></tr>
+<tr class="separator:a33ac27d85cd5ed8ef12b4ded38dc9d32 inherit pub_methods_class_graph_app_1_1_graph_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Властивості</h2></td></tr>
+<tr class="memitem:a4336ec14130ab6c017654536137fbee6" id="r_a4336ec14130ab6c017654536137fbee6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4336ec14130ab6c017654536137fbee6">VertexNumber</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4336ec14130ab6c017654536137fbee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Номер вершини.  <br /></td></tr>
+<tr class="separator:a4336ec14130ab6c017654536137fbee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a1c5518a4e7fa7d29306dcbd7768ba" id="r_a13a1c5518a4e7fa7d29306dcbd7768ba"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a1c5518a4e7fa7d29306dcbd7768ba">CenterX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a13a1c5518a4e7fa7d29306dcbd7768ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Повертає X-координату центру вершини.  <br /></td></tr>
+<tr class="separator:a13a1c5518a4e7fa7d29306dcbd7768ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af381237e3125922c333ad13f0b5f1942" id="r_af381237e3125922c333ad13f0b5f1942"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af381237e3125922c333ad13f0b5f1942">CenterY</a><code> [get]</code></td></tr>
+<tr class="memdesc:af381237e3125922c333ad13f0b5f1942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Повертає Y-координату центру вершини.  <br /></td></tr>
+<tr class="separator:af381237e3125922c333ad13f0b5f1942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Приватні елементи</h2></td></tr>
+<tr class="memitem:ae62c43f1f83ecb5df896ad1ce21db28a" id="r_ae62c43f1f83ecb5df896ad1ce21db28a"><td class="memItemLeft" align="right" valign="top">Style&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62c43f1f83ecb5df896ad1ce21db28a">CreateRoundButtonStyle</a> ()</td></tr>
+<tr class="memdesc:ae62c43f1f83ecb5df896ad1ce21db28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Створює стиль для вершини, щоб надати їй круглої форми.  <br /></td></tr>
+<tr class="separator:ae62c43f1f83ecb5df896ad1ce21db28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2549e7b53db539d746bccccbea686869" id="r_a2549e7b53db539d746bccccbea686869"><td class="memItemLeft" align="right" valign="top">ControlTemplate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2549e7b53db539d746bccccbea686869">CreateControlTemplate</a> ()</td></tr>
+<tr class="memdesc:a2549e7b53db539d746bccccbea686869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Створює шаблон управління для вершини з круглою формою.  <br /></td></tr>
+<tr class="separator:a2549e7b53db539d746bccccbea686869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Детальний опис</h2>
+<div class="textblock"><p>Представляє вершину в графі, яка є графічним елементом на Canvas. </p>
+<p>Клас <a class="el" href="class_graph_app_1_1_vertex.html" title="Представляє вершину в графі, яка є графічним елементом на Canvas.">Vertex</a> успадковується від <a class="el" href="class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas).">GraphElement</a> та представляє окрему вершину у графі, яка може бути переміщена мишею на Canvas. Також цей клас дозволяє відображати номер вершини і має властивості для доступу до її центральних координат. </p>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00432">432</a></p>
+</div><h2 class="groupheader">Конструктор(и)</h2>
+<a id="a4c724fb3157b8fa3635ba06ab8399cd1" name="a4c724fb3157b8fa3635ba06ab8399cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c724fb3157b8fa3635ba06ab8399cd1">&#9670;&#160;</a></span>Vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GraphApp.Vertex.Vertex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>vertexNumber</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор для створення вершини з заданим номером. </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertexNumber</td><td>Номер вершини. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00455">455</a></p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_a4c724fb3157b8fa3635ba06ab8399cd1_cgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_a4c724fb3157b8fa3635ba06ab8399cd1_cgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_a4c724fb3157b8fa3635ba06ab8399cd1_cgraph" id="aclass_graph_app_1_1_vertex_a4c724fb3157b8fa3635ba06ab8399cd1_cgraph">
+<area shape="rect" title="Конструктор для створення вершини з заданим номером." alt="" coords="5,47,167,73"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#ae62c43f1f83ecb5df896ad1ce21db28a" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="221,8,422,51"/>
+<area shape="poly" title=" " alt="" coords="166,47,205,42,206,47,167,52"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a7e08bd675c2e3cffc41284d357b1f084" title="Оновлює положення вершини на Canvas." alt="" coords="215,76,428,103"/>
+<area shape="poly" title=" " alt="" coords="167,67,200,71,199,77,166,73"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a2549e7b53db539d746bccccbea686869" title="Створює шаблон управління для вершини з круглою формою." alt="" coords="476,5,681,48"/>
+<area shape="poly" title=" " alt="" coords="423,26,460,25,460,31,423,31"/>
+<area shape="rect" href="class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="477,72,680,115"/>
+<area shape="poly" title=" " alt="" coords="428,88,461,89,461,94,428,94"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Опис методів компонент</h2>
+<a id="a2549e7b53db539d746bccccbea686869" name="a2549e7b53db539d746bccccbea686869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2549e7b53db539d746bccccbea686869">&#9670;&#160;</a></span>CreateControlTemplate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ControlTemplate GraphApp.Vertex.CreateControlTemplate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Створює шаблон управління для вершини з круглою формою. </p>
+<dl class="section return"><dt>Повертає</dt><dd>Шаблон елемента управління. </dd></dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00486">486</a></p>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_a2549e7b53db539d746bccccbea686869_icgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_a2549e7b53db539d746bccccbea686869_icgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_a2549e7b53db539d746bccccbea686869_icgraph" id="aclass_graph_app_1_1_vertex_a2549e7b53db539d746bccccbea686869_icgraph">
+<area shape="rect" title="Створює шаблон управління для вершини з круглою формою." alt="" coords="464,5,669,48"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#ae62c43f1f83ecb5df896ad1ce21db28a" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="215,5,416,48"/>
+<area shape="poly" title=" " alt="" coords="448,29,416,29,416,24,448,24"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a4c724fb3157b8fa3635ba06ab8399cd1" title="Конструктор для створення вершини з заданим номером." alt="" coords="5,13,167,40"/>
+<area shape="poly" title=" " alt="" coords="199,29,167,29,167,24,199,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae62c43f1f83ecb5df896ad1ce21db28a" name="ae62c43f1f83ecb5df896ad1ce21db28a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62c43f1f83ecb5df896ad1ce21db28a">&#9670;&#160;</a></span>CreateRoundButtonStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Style GraphApp.Vertex.CreateRoundButtonStyle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Створює стиль для вершини, щоб надати їй круглої форми. </p>
+<dl class="section return"><dt>Повертає</dt><dd>Стиль елемента. </dd></dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00470">470</a></p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_cgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_cgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_cgraph" id="aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_cgraph">
+<area shape="rect" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="5,5,207,48"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a2549e7b53db539d746bccccbea686869" title="Створює шаблон управління для вершини з круглою формою." alt="" coords="255,5,460,48"/>
+<area shape="poly" title=" " alt="" coords="207,24,239,24,239,29,207,29"/>
+</map>
+</div>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_icgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_icgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_icgraph" id="aclass_graph_app_1_1_vertex_ae62c43f1f83ecb5df896ad1ce21db28a_icgraph">
+<area shape="rect" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="215,5,416,48"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a4c724fb3157b8fa3635ba06ab8399cd1" title="Конструктор для створення вершини з заданим номером." alt="" coords="5,13,167,40"/>
+<area shape="poly" title=" " alt="" coords="199,29,167,29,167,24,199,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7e08bd675c2e3cffc41284d357b1f084" name="a7e08bd675c2e3cffc41284d357b1f084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e08bd675c2e3cffc41284d357b1f084">&#9670;&#160;</a></span>UpdatePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void GraphApp.Vertex.UpdatePosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оновлює положення вершини на Canvas. </p>
+<p>Використовується для оновлення координат вершини на Canvas та оновлення позицій пов'язаних з нею ребер. </p>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00512">512</a></p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_cgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_cgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_cgraph" id="aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_cgraph">
+<area shape="rect" title="Оновлює положення вершини на Canvas." alt="" coords="5,13,219,40"/>
+<area shape="rect" href="class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="267,5,470,48"/>
+<area shape="poly" title=" " alt="" coords="219,24,251,24,251,29,219,29"/>
+</map>
+</div>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_icgraph.png" border="0" usemap="#aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_icgraph" alt=""/></div>
+<map name="aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_icgraph" id="aclass_graph_app_1_1_vertex_a7e08bd675c2e3cffc41284d357b1f084_icgraph">
+<area shape="rect" title="Оновлює положення вершини на Canvas." alt="" coords="215,5,428,32"/>
+<area shape="rect" href="class_graph_app_1_1_vertex.html#a4c724fb3157b8fa3635ba06ab8399cd1" title="Конструктор для створення вершини з заданим номером." alt="" coords="5,5,167,32"/>
+<area shape="poly" title=" " alt="" coords="199,21,167,21,167,16,199,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Повний список властивостей</h2>
+<a id="a13a1c5518a4e7fa7d29306dcbd7768ba" name="a13a1c5518a4e7fa7d29306dcbd7768ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a1c5518a4e7fa7d29306dcbd7768ba">&#9670;&#160;</a></span>CenterX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double GraphApp.Vertex.CenterX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Повертає X-координату центру вершини. </p>
+<dl class="section return"><dt>Повертає</dt><dd>Центр вершини по X. </dd></dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00443">443</a></p>
+
+</div>
+</div>
+<a id="af381237e3125922c333ad13f0b5f1942" name="af381237e3125922c333ad13f0b5f1942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af381237e3125922c333ad13f0b5f1942">&#9670;&#160;</a></span>CenterY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double GraphApp.Vertex.CenterY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Повертає Y-координату центру вершини. </p>
+<dl class="section return"><dt>Повертає</dt><dd>Центр вершини по Y. </dd></dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00449">449</a></p>
+
+</div>
+</div>
+<a id="a4336ec14130ab6c017654536137fbee6" name="a4336ec14130ab6c017654536137fbee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4336ec14130ab6c017654536137fbee6">&#9670;&#160;</a></span>VertexNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GraphApp.Vertex.VertexNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Номер вершини. </p>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>, рядок <a class="el" href="_main_window_8xaml_8cs_source.html#l00437">437</a></p>
+
+</div>
+</div>
+<hr/>Документація цього класу була створена з файлу:<ul>
+<li>GraphApp-main/GraphApp/<a class="el" href="_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_graph_app.html">GraphApp</a></li><li class="navelem"><a class="el" href="class_graph_app_1_1_vertex.html">Vertex</a></li>
+    <li class="footer">Створено системою <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+  </ul>
+</div>
+</body>
+</html>

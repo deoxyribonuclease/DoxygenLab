@@ -1,0 +1,5 @@
+<map id="GraphApp.Vertex.UpdatePosition" name="GraphApp.Vertex.UpdatePosition">
+<area shape="rect" id="Node000001" title="Оновлює положення вершини на Canvas." alt="" coords="5,13,219,40"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="267,5,470,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,24,251,24,251,29,219,29"/>
+</map>

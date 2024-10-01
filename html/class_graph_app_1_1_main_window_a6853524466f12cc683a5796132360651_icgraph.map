@@ -1,0 +1,5 @@
+<map id="GraphApp.MainWindow.CreateVertex" name="GraphApp.MainWindow.CreateVertex">
+<area shape="rect" id="Node000001" title="Створює нову вершину на графічному полотні." alt="" coords="275,5,475,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a6c2cf963357a326486895c042340dc8e" title=" " alt="" coords="5,5,227,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,29,227,29,227,24,259,24"/>
+</map>

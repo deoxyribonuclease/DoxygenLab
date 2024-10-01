@@ -1,0 +1,5 @@
+<map id="GraphApp.MainWindow.Vertex_MouseDown" name="GraphApp.MainWindow.Vertex_MouseDown">
+<area shape="rect" id="Node000001" title="Обробник події натискання мишею на вершину. Або починає перетягування, або створює ребро." alt="" coords="5,5,204,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a9c901dc644b34e35ecfd1eb887d8fca0" title="Початок створення ребра (перша вершина вибрана)" alt="" coords="252,5,441,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,24,236,24,236,29,204,29"/>
+</map>

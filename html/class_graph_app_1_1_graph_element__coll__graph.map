@@ -1,0 +1,5 @@
+<map id="GraphApp.GraphElement" name="GraphApp.GraphElement">
+<area shape="rect" id="Node000001" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,5,134,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,48,91,80,86,80,86,48"/>
+</map>

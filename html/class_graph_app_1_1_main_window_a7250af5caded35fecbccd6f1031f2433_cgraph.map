@@ -1,0 +1,21 @@
+<map id="GraphApp.MainWindow.Vertex_MouseUp" name="GraphApp.MainWindow.Vertex_MouseUp">
+<area shape="rect" id="Node000001" title="Обробник події відпускання кнопки миші після перетягування вершини" alt="" coords="5,109,204,152"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a9817c8568700fd13c6355458cabae758" title="Метод створення матриці суміжності" alt="" coords="1078,5,1300,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,106,201,89,251,73,360,50,472,33,584,21,695,14,899,11,1062,16,1062,21,899,16,695,20,585,27,472,38,361,55,252,79,203,94,157,111"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_main_window.html#aa47dfdbd618c00aaaadaeb52b5d2ba7b" title="Створення ребра між двома вершинами" alt="" coords="252,88,482,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,117,236,113,236,119,204,122"/>
+<area shape="rect" id="Node000007" href="$class_graph_app_1_1_main_window.html#ab0f2d50b2c0893c9ead145909603c0d2" title="Отримання положення вершини" alt="" coords="257,139,476,181"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="204,139,242,143,242,149,204,144"/>
+<area shape="rect" id="Node000009" href="$class_graph_app_1_1_main_window.html#ab2eab2e6dc74af1ebc3b4a31e48d41c4" title="Зупинка створення ребра" alt="" coords="273,205,461,248"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="154,150,253,191,273,198,271,203,251,196,152,155"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_main_window.html#ab20d9ee7c4c164eec2f78563aad2c134" title="Клас, що містить методи для роботи з ребрами та їх створення" alt="" coords="540,51,731,93"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="482,86,524,81,525,87,483,91"/>
+<area shape="rect" id="Node000006" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="1087,84,1290,127"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="483,102,530,103,1072,104,1072,109,530,108,483,107"/>
+<area shape="rect" id="Node000005" href="$class_graph_app_1_1_main_window.html#a3312b3c4c465b05ea338f5abcad9d8d8" title="Видалення ребра" alt="" coords="789,59,1030,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="732,69,774,69,774,75,732,75"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="996,55,1062,45,1063,50,997,61"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="1027,83,1072,89,1071,94,1027,89"/>
+<area shape="rect" id="Node000008" href="$class_graph_app_1_1_main_window.html#a91f0e470a98b1e4172bd4e90b725720d" title="Перевірка, чи знаходиться курсор миші над заданою вершиною" alt="" coords="530,168,741,211"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="477,169,515,173,514,179,477,175"/>
+</map>

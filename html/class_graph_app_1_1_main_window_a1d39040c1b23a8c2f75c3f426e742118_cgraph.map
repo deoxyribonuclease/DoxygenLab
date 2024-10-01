@@ -1,0 +1,9 @@
+<map id="GraphApp.MainWindow.RemoveEdgesConnectedToVertex" name="GraphApp.MainWindow.RemoveEdgesConnectedToVertex">
+<area shape="rect" id="Node000001" title="Видалення всіх ребер, що з&#39;єднані з заданою вершиною" alt="" coords="5,39,216,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a3312b3c4c465b05ea338f5abcad9d8d8" title="Видалення ребра" alt="" coords="264,47,504,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,57,248,57,248,63,216,63"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_main_window.html#a9817c8568700fd13c6355458cabae758" title="Метод створення матриці суміжності" alt="" coords="552,5,774,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="501,43,537,39,537,44,502,49"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="562,72,765,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="502,71,546,77,545,82,501,77"/>
+</map>

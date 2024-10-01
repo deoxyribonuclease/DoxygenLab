@@ -1,0 +1,12 @@
+<map id="GraphApp.MainWindow.CreateEdge" name="GraphApp.MainWindow.CreateEdge">
+<area shape="rect" id="Node000001" title="Створення ребра між двома вершинами" alt="" coords="5,51,236,77"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#ab20d9ee7c4c164eec2f78563aad2c134" title="Клас, що містить методи для роботи з ребрами та їх створення" alt="" coords="284,13,475,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,48,268,45,269,50,236,54"/>
+<area shape="rect" id="Node000005" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="821,72,1024,115"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="236,66,805,86,805,92,236,71"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_main_window.html#a3312b3c4c465b05ea338f5abcad9d8d8" title="Видалення ребра" alt="" coords="523,21,763,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="475,32,507,32,507,37,475,37"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_main_window.html#a9817c8568700fd13c6355458cabae758" title="Метод створення матриці суміжності" alt="" coords="811,5,1034,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="764,29,796,28,796,33,764,34"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="711,46,806,66,805,71,710,51"/>
+</map>

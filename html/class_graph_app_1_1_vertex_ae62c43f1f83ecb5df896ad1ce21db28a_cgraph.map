@@ -1,0 +1,5 @@
+<map id="GraphApp.Vertex.CreateRoundButtonStyle" name="GraphApp.Vertex.CreateRoundButtonStyle">
+<area shape="rect" id="Node000001" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="5,5,207,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_vertex.html#a2549e7b53db539d746bccccbea686869" title="Створює шаблон управління для вершини з круглою формою." alt="" coords="255,5,460,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,24,239,24,239,29,207,29"/>
+</map>

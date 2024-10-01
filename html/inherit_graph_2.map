@@ -1,0 +1,9 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,97,57"/>
+<area shape="rect" id="Node000001" href="$class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="145,31,311,57"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="112,41,144,41,144,47,112,47"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_edge.html" title="Представляє ребро між двома вершинами." alt="" coords="362,5,476,32"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="326,28,362,24,362,29,327,34"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_vertex.html" title="Представляє вершину в графі, яка є графічним елементом на Canvas." alt="" coords="359,56,479,83"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="327,54,359,59,358,64,326,60"/>
+</map>

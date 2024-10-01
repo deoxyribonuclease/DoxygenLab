@@ -1,0 +1,11 @@
+<map id="GraphApp.Edge" name="GraphApp.Edge">
+<area shape="rect" id="Node000001" title="Представляє ребро між двома вершинами." alt="" coords="74,172,188,199"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_graph_element.html" title="Абстрактний клас, що представляє графічний елемент на полотні (Canvas)." alt="" coords="5,81,110,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,118,122,170,118,173,76,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="12,5,103,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="60,47,60,81,55,81,55,47"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_arrowhead.html" title="Представляє стрілку на кінці ребра." alt="" coords="134,81,280,108"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,122,144,173,140,170,184,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="178,5,236,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="210,47,210,81,204,81,204,47"/>
+</map>

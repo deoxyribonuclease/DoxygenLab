@@ -1,0 +1,11 @@
+<map id="GraphApp.Vertex.Vertex" name="GraphApp.Vertex.Vertex">
+<area shape="rect" id="Node000001" title="Конструктор для створення вершини з заданим номером." alt="" coords="5,47,167,73"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_vertex.html#ae62c43f1f83ecb5df896ad1ce21db28a" title="Створює стиль для вершини, щоб надати їй круглої форми." alt="" coords="221,8,422,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,47,205,42,206,47,167,52"/>
+<area shape="rect" id="Node000004" href="$class_graph_app_1_1_vertex.html#a7e08bd675c2e3cffc41284d357b1f084" title="Оновлює положення вершини на Canvas." alt="" coords="215,76,428,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,67,200,71,199,77,166,73"/>
+<area shape="rect" id="Node000003" href="$class_graph_app_1_1_vertex.html#a2549e7b53db539d746bccccbea686869" title="Створює шаблон управління для вершини з круглою формою." alt="" coords="476,5,681,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,26,460,25,460,31,423,31"/>
+<area shape="rect" id="Node000005" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="477,72,680,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="428,88,461,89,461,94,428,94"/>
+</map>

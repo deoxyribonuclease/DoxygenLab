@@ -1,0 +1,5 @@
+<map id="GraphApp.MainWindow.Window_SizeChanged" name="GraphApp.MainWindow.Window_SizeChanged">
+<area shape="rect" id="Node000001" title="перевірка зміни розміра вікна" alt="" coords="5,5,214,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_app_1_1_main_window.html#a81be037226b3196e73f6352c52dd0f79" title="Оновлення позицій ребер, які з&#39;єднані з заданою вершиною" alt="" coords="262,5,465,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,24,246,24,246,29,214,29"/>
+</map>
